@@ -1,1 +1,7 @@
-谢谢谢谢
+Table	Create Table
+goods	CREATE TABLE `goods` (
+  `name` varchar(25) DEFAULT NULL,
+  `price` float DEFAULT NULL,
+  `sales_volume` int(20) DEFAULT NULL,
+  `produced_date` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
